@@ -52,3 +52,23 @@ The application can assist visually impaired users by converting text in images 
 
 It can be used in educational settings to demonstrate the capabilities of OCR technology and to teach students about text extraction from images.
 These functionalities and use cases illustrate the versatility of the TesseractTest application in various scenarios where text extraction from images is required.
+
+# Example
+
+Enter the image file path (or type 'exit' to quit): 
+/path/to/your/image.png
+
+Detected text:
+[Extracted text from the image will be displayed here]
+
+Enter the image file path (or type 'exit' to quit):
+exit
+Exiting program...
+
+# Error Handling
+
+If the provided path is not valid or the file is not found, an error message will be displayed.
+
+If there is an issue downloading the image from a URL, an error message will be shown.
+
+Any other exceptions will be caught and displayed to the user.
