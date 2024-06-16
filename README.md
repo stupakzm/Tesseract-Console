@@ -1,5 +1,10 @@
 # Tesseract-Console
 
+Download Tesseract data files:
+
+Download the English language data files from the Tesseract data repository.
+Place the tessdata_best-main folder in the project's directory.
+
 Functionality
 The TesseractTest application provides the following key functionalities:
 
