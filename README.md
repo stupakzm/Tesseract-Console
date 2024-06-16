@@ -2,7 +2,7 @@
 
 Download Tesseract data files:
 
-Download the English language data files from the Tesseract data repository.
+  Download the English language data files from the ![Tesseract data repository](https://github.com/tesseract-ocr/tessdata_best).
 Place the tessdata_best-main folder in the project's directory.
 
 Functionality
