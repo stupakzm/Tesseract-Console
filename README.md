@@ -2,24 +2,27 @@
 
  # Download Tesseract data files:
 
-  Download the English language data files from the [Tesseract data repository](https://github.com/tesseract-ocr/tessdata_best).
+Download the English language data files from the [Tesseract data repository](https://github.com/tesseract-ocr/tessdata_best).
+
 Place the tessdata_best-main folder in the project's directory.
 
 # Functionality
 
 The TesseractTest application provides the following key functionalities:
 
-Text Extraction from Images:
+- Text Extraction from Images:
 
-- The application utilizes the Tesseract OCR engine to extract text from images.
+The application utilizes the Tesseract OCR engine to extract text from images.
 It supports processing images from both local file paths and URLs.
-Interactive Console Interface:
 
-- Users can input the path to an image file or a URL directly into the console.
+- Interactive Console Interface:
+
+Users can input the path to an image file or a URL directly into the console.
 The application continuously prompts for new input until the user types 'exit'.
-Error Handling:
 
-- The application checks for the validity of the provided image path or URL.
+- Error Handling:
+
+The application checks for the validity of the provided image path or URL.
 It handles errors related to file existence, URL format, and image downloading issues.
 Exception messages are displayed to the user to provide feedback on any issues encountered.
 
@@ -28,7 +31,8 @@ Exception messages are displayed to the user to provide feedback on any issues e
 - Digitizing Printed Documents:
 
 Users can convert printed documents into digital text by scanning them into image files and using the application to extract the text.
-Extracting Text from Web Images:
+
+- Extracting Text from Web Images:
 
 For images hosted online, users can provide the image URL to extract the text without needing to download the image manually.
 
