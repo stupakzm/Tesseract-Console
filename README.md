@@ -55,6 +55,7 @@ These functionalities and use cases illustrate the versatility of the TesseractT
 
 # Example
 
+```
 Enter the image file path (or type 'exit' to quit): 
 /path/to/your/image.png
 
@@ -64,6 +65,7 @@ Detected text:
 Enter the image file path (or type 'exit' to quit):
 exit
 Exiting program...
+```
 
 # Error Handling
 
